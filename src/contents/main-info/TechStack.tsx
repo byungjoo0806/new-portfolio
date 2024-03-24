@@ -48,6 +48,9 @@ const Skills = () => {
                                 <li>
                                     want to get professional in usage of class components
                                 </li>
+                                <li>
+                                    able to use p5.js to add different animations (still learning)
+                                </li>
                             </ul>
                         </li>
                     </ul>

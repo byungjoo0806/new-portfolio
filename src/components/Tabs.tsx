@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 interface Tab {
     key: string;
@@ -11,11 +11,36 @@ interface TabProps {
 }
 
 const Tabs: React.FC<TabProps> = ({tabs,children}) => {
-    const [activeTab, setActiveTab] = useState(tabs[0].key);
+    const [activeTab, setActiveTab] = useState<string>(tabs[0].key);
+    const [isSticky,setIsSticky] = useState<boolean>(false);
+
+    const tabRef = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        const tabTop = tabRef.current?.offsetTop;
+        
+        const onScroll = ()=>{
+            console.log(window.scrollY);
+            console.log(tabTop);
+            if(tabTop){
+                if(window.scrollY >= tabTop){
+                    setIsSticky(true);
+                }else{
+                    setIsSticky(false);
+                }
+            }
+        }
+
+        window.addEventListener("scroll",onScroll);
+
+        return () => {
+            window.removeEventListener('scroll', onScroll);
+        };
+    },[]);
 
     return (
-        <div className='w-full flex flex-col items-center font-roboto text-sm md:text-base z-10'>
-            <div className="tabs flex flex-row w-full md:w-[60%]">
+        <div className='tab-box w-full flex flex-col items-center font-roboto text-sm md:text-base z-10'>
+            <div ref={tabRef} className={`tabs flex flex-row w-full md:w-[60%] ${isSticky ? "sticky" : ""}`}>
                 {tabs.map(tab => (
                     <div
                     key={tab.key}

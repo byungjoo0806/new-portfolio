@@ -10,7 +10,7 @@ const Education = () => {
             <Heading>
                 Education
             </Heading>
-
+            <br/>
             <ul className="flex flex-col w-full gap-[120px]">
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px]">

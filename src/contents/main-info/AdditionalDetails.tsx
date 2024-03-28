@@ -9,7 +9,7 @@ const AdditionalDetails = (props: Props) => {
       <Heading>
         About
       </Heading>
-
+      <br/>
       <div>
         With the growth of decentralized network, I was attracted by the blockchain technology that ensures both security and convenience. 
         However, even with the research on details of such technology, I could not fully grasp the concept and the structure. 

@@ -8,20 +8,83 @@ import Modal from '../../components/Modal'
 import { TiHtml5 } from 'react-icons/ti'
 
 const Projects = () => {
-    const [isShowingModal, toggleModal] = useModal()
-    const [isShowingModal2, toggleModal2] = useModal()
-    const [isShowingModal3, toggleModal3] = useModal()
+    const [isShowingModal, toggleModal] = useModal();
+    const [isShowingModal2, toggleModal2] = useModal();
+    const [isShowingModal3, toggleModal3] = useModal();
+    const [isShowingModal4, toggleModal4] = useModal();
 
     return (
         <Wrapper>
             <Heading>
                 Projects
             </Heading>
+            <br/>
+            <ul className="flex flex-col w-full gap-[120px] pb-20">
+                {/* 현재 진행중 프로젝트 */}
+                <li className="flex flex-col gap-[32px] md:flex-row">
+                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
+                        <img
+                            src=""
+                            className="w-[50%] md:w-full"
+                            alt="maplestory"
+                        />
+                        <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
+                            <li className="text-[16px]">Personal Project</li>
+                            <li>frontend</li>
+                            <li>blockchain</li>
+                            <li>
+                                <button
+                                    onClick={toggleModal4}
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                >
+                                    Details
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="w-full">
+                        <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
+                            Maplestory NFT {' '} (in progress) <br/>
+                            {/* <a href="">
+                                <FaExternalLinkAlt />
+                            </a> */}
+                        </h2>
 
-            <ul className="flex flex-col w-full gap-[120px]">
+                        <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
+                            Create your own Maplestory NFTs and share your artistic senses and feelings with the whole world.
+                            Sell your own NFTs and buy others' to help grow the community.
+                            You can add backgrounds, chairs, pets, and even NPCs for your NFTs.
+                            You can own and enjoy the moments that you could only have in game.
+                        </p>
+                        <br/>
+                        <h3 className="py-[16px] text-[16px] font-bold">Tech Stack</h3>
+                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[10px]">
+                            <DiReact />
+                            <SiTypescript />
+                            <SiTailwindcss />
+                        </div>
+
+                        <h3 className="py-[16px] text-[16px] font-bold">Roles and Responsibilities</h3>
+                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+                            <li>
+                                Created a webpage using React with Typescript. No backend servers.
+                            </li>
+                            <li>
+                                Used Solidity and Web3.js for minting, buying, and selling NFTs.
+                            </li>
+                            <li>
+                                Used Remix for deploying contracts.
+                            </li>
+                            <li>
+                                Using Canvas, users would create characters, add backgrounds, and even apply chairs. (coming soon)
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
                 {/* 첫번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center">
+                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./bouncecode.png"
                             className="w-[50%] md:w-full"
@@ -56,9 +119,9 @@ const Projects = () => {
                             where users can buy subscriptions, trade tokens, and cast votes.
                             I was in charge of frontend development using React with Typescript and Tailwind CSS and voting contract using Solidity.
                         </p>
-
+                        <br/>
                         <h3 className="py-[16px] text-[16px] font-bold">Tech Stack</h3>
-                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
+                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[10px]">
                             <DiReact />
                             <SiTypescript />
                             <SiJavascript />
@@ -91,7 +154,7 @@ const Projects = () => {
 
                 {/* 두번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center">
+                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./steam100.png"
                             className="w-[50%] md:w-full"
@@ -124,9 +187,9 @@ const Projects = () => {
                             Steam 100 is a game recommendation website using Steam APIs.
                             I was in charge of fetching data using the APIs and rendering them with React.
                         </p>
-
+                        <br/>
                         <h3 className="py-[16px] text-[16px] font-bold">Tech Stack</h3>
-                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
+                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[10px]">
                             <DiReact />
                             <SiJavascript />
                             <DiNodejs />
@@ -151,7 +214,7 @@ const Projects = () => {
 
                 {/* 세번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center">
+                    <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./linkee.png"
                             className="w-[50%] md:w-full"
@@ -185,9 +248,9 @@ const Projects = () => {
                             I was in charge of building mypage and profile edit page with HTML and CSS,
                             and deploying the project through AWS EC2.
                         </p>
-
+                        <br/>
                         <h3 className="py-[16px] text-[16px] font-bold">Tech Stack</h3>
-                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
+                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[10px]">
                             <TiHtml5 />
                             <SiCss3 />
                             <SiJavascript />
@@ -211,6 +274,63 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
+
+            <Modal show={isShowingModal4} onCloseButtonClick={toggleModal4}>
+                <div className='flex flex-col gap-[32px] md:flex-row'>
+                    <div className="w-full md:w-[420px] ">
+                        <img
+                            src=""
+                            className="w-full"
+                            alt="maplestory"
+                        />
+                        <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
+                            <li className="text-[16px]">Personal Project</li>
+                            <li>frontend</li>
+                            <li>blockchain</li>
+                            {/* <li>
+                                <button
+                                    onClick={toggleModal4}
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                >
+                                    Details
+                                </button>
+                            </li> */}
+                        </ul>
+                    </div>
+                    <div className="w-full">
+                        <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[20px] font-semibold pb-[16px]">
+                            Maplestory NFT{' '}
+                        </h2>
+
+                        <ul className="leading-5 list-disc pl-[20px] text-slate-950 text-[12px] md:text-[14px] md:leading-7">
+                            <li>a website where users can mint, buy, and sell NFTs</li>
+                            <li>users can create their own images for their own NFTs</li>
+                            <li>users can open chests to receive items (clothes,chairs,mobs,NPCs,etc.) that they can use when creating NFT images</li>
+                            <li>users can create and meet the world of Maplestory outside of the game</li>
+                        </ul>
+
+                        <h3 className="pt-[16px] pb-[5px] text-[16px] font-bold">Tech Stack</h3>
+                        <ul className="flex flex-col list-disc text-[14px] gap-[8px] py-[8px] px-[20px]">
+                            <li>
+                                frontend : React, Typescript
+                            </li>
+                            <li>
+                                blockchain : Solidity, Web3.js
+                            </li>
+                        </ul>
+
+                        <h3 className="py-[16px] text-[16px] font-bold">Future Goals</h3>
+                        <div className="leading-8 text-[12px] md:text-[14px]">
+                            If somehow I can use the actual Maplestory client to create actual Maplestory in-game characters,
+                            I would love to use those as images for NFTs.
+                            Also, it would be the best if there is a game that is connected to the NFT world.
+                            Rewards for quests and missions would be some sort of tokens that could be used for opening chests that contain fashion items.
+                            Users will be able to create their own characters with those drawn from chests.
+                            Users will also be able to create NFTs with mobs, pets, and NPCs from all over the Maple World.
+                        </div>
+                    </div>
+                </div>
+            </Modal>
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
                 <div className='flex flex-col gap-[32px] md:flex-row'>
@@ -359,7 +479,7 @@ const Projects = () => {
                         <img
                             src="./linkee.png"
                             className="w-full"
-                            alt="company collaboration project"
+                            alt="linkee"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">Team Project (3 members) - </li>

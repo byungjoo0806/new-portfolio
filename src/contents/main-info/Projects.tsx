@@ -346,14 +346,14 @@ const Projects = () => {
                             <li className="text-stone-500">2023. 11. 01 ~ 2023. 12. 05</li>
                             <li>frontend</li>
                             <li>blockchain</li>
-                            <li>
+                            {/* <li>
                                 <button
                                     onClick={toggleModal}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     Details
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="w-full">
@@ -417,14 +417,14 @@ const Projects = () => {
                             <li>frontend</li>
                             <li>backend</li>
                             <li>deploy</li>
-                            <li>
+                            {/* <li>
                                 <button
-                                    onClick={toggleModal}
+                                    onClick={toggleModal2}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     Details
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="w-full">
@@ -487,14 +487,14 @@ const Projects = () => {
                             <li>frontend</li>
                             <li>backend</li>
                             <li>deploy</li>
-                            <li>
+                            {/* <li>
                                 <button
-                                    onClick={toggleModal}
+                                    onClick={toggleModal3}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     Details
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="w-full">

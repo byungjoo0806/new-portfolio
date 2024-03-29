@@ -39,7 +39,7 @@ const Tabs: React.FC<TabProps> = ({tabs,children}) => {
     },[]);
 
     return (
-        <div className='tab-box w-full flex flex-col items-center font-roboto text-sm md:text-base z-10'>
+        <div className='tab-box w-full flex flex-col items-center font-roboto text-sm md:text-base z-10 shadow-xl border-b border-slate-100'>
             <div ref={tabRef} className={`tabs flex flex-row w-full md:w-[60%] ${isSticky ? "sticky" : ""}`}>
                 {tabs.map(tab => (
                     <div

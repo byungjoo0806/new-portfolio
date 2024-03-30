@@ -24,9 +24,9 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
-                            src=""
+                            src="./maple-nft.png"
                             className="w-[50%] md:w-full"
-                            alt="maplestory"
+                            alt="maplestory nft"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
                             <li className="text-[16px]">Personal Project</li>
@@ -279,7 +279,7 @@ const Projects = () => {
                 <div className='flex flex-col gap-[32px] md:flex-row'>
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src=""
+                            src="./maple-nft.png"
                             className="w-full"
                             alt="maplestory"
                         />

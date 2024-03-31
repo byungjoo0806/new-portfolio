@@ -24,9 +24,9 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
-                            src="./maple-nft.png"
+                            src="./crayon-logo.png"
                             className="w-[50%] md:w-full"
-                            alt="maplestory nft"
+                            alt="crayon nft"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
                             <li className="text-[16px]">Personal Project</li>
@@ -44,17 +44,17 @@ const Projects = () => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            Maplestory NFT {' '} (in progress) <br/>
+                            CRAYON - Create Your Own NFT {' '} (in progress) <br/>
                             {/* <a href="">
                                 <FaExternalLinkAlt />
                             </a> */}
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            Create your own Maplestory NFTs and share your artistic senses and feelings with the whole world.
+                            Create your own NFTs and share your artistic senses and feelings with the whole world.
                             Sell your own NFTs and buy others' to help grow the community.
-                            You can add backgrounds, chairs, pets, and even NPCs for your NFTs.
-                            You can own and enjoy the moments that you could only have in game.
+                            You can add image files or draw that you want to add to your NFTs.
+                            You can share your memories and enjoy others' experience as well.
                         </p>
                         <br/>
                         <h3 className="py-[16px] text-[16px] font-bold">Tech Stack</h3>
@@ -76,7 +76,7 @@ const Projects = () => {
                                 Used Remix for deploying contracts.
                             </li>
                             <li>
-                                Using Canvas, users would create characters, add backgrounds, and even apply chairs. (coming soon)
+                                Using Canvas, users would make their own images that would be added to NFTs. (coming soon)
                             </li>
                         </ul>
                     </div>
@@ -279,9 +279,9 @@ const Projects = () => {
                 <div className='flex flex-col gap-[32px] md:flex-row'>
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="./maple-nft.png"
+                            src="./crayon-logo.png"
                             className="w-full"
-                            alt="maplestory"
+                            alt="crayon nft"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">Personal Project</li>
@@ -299,14 +299,14 @@ const Projects = () => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[20px] font-semibold pb-[16px]">
-                            Maplestory NFT{' '}
+                            CRAYON - Create Your Own NFT{' '}
                         </h2>
 
                         <ul className="leading-5 list-disc pl-[20px] text-slate-950 text-[12px] md:text-[14px] md:leading-7">
                             <li>a website where users can mint, buy, and sell NFTs</li>
                             <li>users can create their own images for their own NFTs</li>
-                            <li>users can open chests to receive items (clothes,chairs,mobs,NPCs,etc.) that they can use when creating NFT images</li>
-                            <li>users can create and meet the world of Maplestory outside of the game</li>
+                            <li>users can leave their favorite pictures or moments as NFTs that would never be lost</li>
+                            <li>users can get second-hand experience from others</li>
                         </ul>
 
                         <h3 className="pt-[16px] pb-[5px] text-[16px] font-bold">Tech Stack</h3>
@@ -321,12 +321,11 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">Future Goals</h3>
                         <div className="leading-8 text-[12px] md:text-[14px]">
-                            If somehow I can use the actual Maplestory client to create actual Maplestory in-game characters,
-                            I would love to use those as images for NFTs.
-                            Also, it would be the best if there is a game that is connected to the NFT world.
-                            Rewards for quests and missions would be some sort of tokens that could be used for opening chests that contain fashion items.
-                            Users will be able to create their own characters with those drawn from chests.
-                            Users will also be able to create NFTs with mobs, pets, and NPCs from all over the Maple World.
+                            I would really want to have some game clients running in the page so that I can use those images as NFTs.
+                            For example, it would be wonderful if I could get a screenshot from Maplestory and turn that into the image of an NFT.
+                            Or it could be a League of Legends' champion from Summoner's Rift.
+                            There are just so many opportunities and possibilities that I would love to apply.
+                            The beginning of that is simple Canvas drawing action where users can draw or even doodle their own NFT images.
                         </div>
                     </div>
                 </div>

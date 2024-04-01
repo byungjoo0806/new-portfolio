@@ -6,10 +6,9 @@ type Props = {}
 
 const Profile = (props: Props) => {
   return (
-    <div className='w-full md:w-[60%] border-b border-black flex flex-row justify-center items-center z-10'>
+    <div className='w-full md:w-[60%] border-b border-black flex flex-col md:flex-row justify-center items-center z-10'>
         <Faceimg />
         {/* {<PersonalQuote />} */}
-        <div className='empty-div w-full h-[10px]'></div>
         <PersonalInfo />
     </div>
   )

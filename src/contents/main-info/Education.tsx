@@ -11,7 +11,7 @@ const Education = () => {
             <ul className="flex flex-col w-full gap-[120px]">
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px]">
-                        <div className='w-full flex justify-center items-center'>
+                        <div className='w-full flex justify-center items-center bg-white'>
                             <img
                                 src="./kga.png"
                                 className="w-[50%] md:w-full"

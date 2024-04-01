@@ -4,7 +4,7 @@ type Props = {}
 
 const Faceimg = (props: Props) => {
   return (
-    <div className='w-[50%] md:w-[30%]'>
+    <div className='w-[50%] md:w-[30%] rounded-full'>
         <img className='w-full h-full' src="./profile_pic.jpeg" alt="profile pic" />
     </div>
   )

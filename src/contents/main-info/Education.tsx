@@ -1,5 +1,5 @@
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { Heading, Wrapper } from '../../components/Common'
+import { Wrapper } from '../../components/Common'
 import { TiHtml5 } from 'react-icons/ti';
 import { SiAmazonec2, SiCss3, SiJavascript, SiSolidity, SiTypescript } from 'react-icons/si';
 import { DiGithubBadge, DiNodejs } from 'react-icons/di';
@@ -7,9 +7,6 @@ import { DiGithubBadge, DiNodejs } from 'react-icons/di';
 const Education = () => {
     return (
         <Wrapper>
-            <Heading>
-                Education
-            </Heading>
             <br/>
             <ul className="flex flex-col w-full gap-[120px]">
                 <li className="flex flex-col gap-[32px] md:flex-row">

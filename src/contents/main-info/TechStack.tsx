@@ -1,10 +1,9 @@
-import { Wrapper, Heading } from '../../components/Common'
+import { Wrapper } from '../../components/Common'
 import { SiTypescript, SiJavascript, SiExpress, SiReact, SiSolidity } from 'react-icons/si'
 
 const Skills = () => {
     return (
         <Wrapper>
-            <Heading>Tech Stack</Heading>
             <br/>
             <ul className="flex flex-col divide-y divide-gray-400">
                 <li className="flex flex-row gap-[32px] py-[32px">

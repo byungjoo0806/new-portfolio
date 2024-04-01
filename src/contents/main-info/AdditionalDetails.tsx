@@ -1,14 +1,11 @@
 import React from 'react';
-import { Heading, Wrapper } from '../../components/Common';
+import { Wrapper } from '../../components/Common';
 
 type Props = {}
 
 const AdditionalDetails = (props: Props) => {
   return (
     <Wrapper>
-      <Heading>
-        About
-      </Heading>
       <br/>
       <div>
         With the growth of decentralized network, I was attracted by the blockchain technology that ensures both security and convenience. 

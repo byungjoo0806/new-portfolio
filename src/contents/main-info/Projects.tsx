@@ -1,4 +1,4 @@
-import { Wrapper, Heading } from '../../components/Common'
+import { Wrapper } from '../../components/Common'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import { DiNodejs, DiGithubBadge } from 'react-icons/di'
 import { SiAmazonec2, SiAmazons3, SiCss3, SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si'
@@ -15,13 +15,11 @@ const Projects = () => {
 
     return (
         <Wrapper>
-            <Heading>
-                Projects
-            </Heading>
+            
             <br/>
-            <ul className="flex flex-col w-full gap-[120px] pb-20">
+            <ul className="flex flex-col w-full pb-20">
                 {/* 현재 진행중 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                <li className="flex flex-col gap-[32px] pb-5 border-b border-black border-dashed md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./crayon-logo.png"
@@ -83,7 +81,7 @@ const Projects = () => {
                 </li>
 
                 {/* 첫번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                <li className="flex flex-col gap-[32px] pt-5 pb-5 border-b border-black border-dashed md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./bouncecode.png"
@@ -153,7 +151,7 @@ const Projects = () => {
                 </li>
 
                 {/* 두번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                <li className="flex flex-col gap-[32px] pt-5 pb-5 border-b border-black border-dashed md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./steam100.png"
@@ -213,7 +211,7 @@ const Projects = () => {
                 </li>
 
                 {/* 세번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                <li className="flex flex-col gap-[32px] pt-5 pb-5 md:flex-row">
                     <div className="w-full md:w-[420px] flex flex-col justify-center items-center md:items-start">
                         <img
                             src="./linkee.png"

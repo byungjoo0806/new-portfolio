@@ -51,7 +51,7 @@ const Tabs: React.FC<TabProps> = ({tabs,children}) => {
                     </div>
                 ))}
             </div>
-            <div className="tab-content w-full flex justify-center bg-white">
+            <div className="tab-content w-full flex justify-center">
                 {children.filter(child => React.isValidElement(child) && child.props.tabKey === activeTab)}
             </div>
         </div>

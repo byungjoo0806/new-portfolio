@@ -324,6 +324,8 @@ const Projects = () => {
                             Or it could be a League of Legends' champion from Summoner's Rift.
                             There are just so many opportunities and possibilities that I would love to apply.
                             The beginning of that is simple Canvas drawing action where users can draw or even doodle their own NFT images.
+                            Also, I would want to use Rust instead of Solidity. I've studied Rust a bit and I don't know when it will happen,
+                            but I would really love to apply Rust for blockchain.
                         </div>
                     </div>
                 </div>

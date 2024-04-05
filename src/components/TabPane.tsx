@@ -7,7 +7,7 @@ interface TabPaneProps {
 
 const TabPane: React.FC<TabPaneProps> = ({children}) => {
     return (
-        <div className='w-full md:w-[60%] flex justify-center items-center bg-white'>
+        <div className='w-full md:w-[60%] flex flex-col justify-center items-center bg-white'>
             {children}
         </div>
 

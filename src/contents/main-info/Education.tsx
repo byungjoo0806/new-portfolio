@@ -8,8 +8,8 @@ const Education = () => {
     return (
         <Wrapper>
             <br/>
-            <ul className="flex flex-col w-full gap-[120px]">
-                <li className="flex flex-col gap-[32px] md:flex-row">
+            <ul className="w-full flex flex-col justify-around">
+                <li className="flex flex-col gap-[32px] md:flex-row pb-5">
                     <div className="w-full md:w-[420px]">
                         <div className='w-full flex justify-center items-center bg-white'>
                             <img
@@ -67,7 +67,7 @@ const Education = () => {
                     </div>
                 </li>
 
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                <li className="flex flex-col gap-[32px] md:flex-row pt-5 pb-5 border-t border-gray-400 ">
                     <div className="w-full md:w-[420px] flex justify-center items-center">
                         <img
                             src="./uva-logo.jpg"

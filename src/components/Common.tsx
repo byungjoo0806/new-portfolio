@@ -4,7 +4,7 @@ interface ChildrenProps {
 }
 
 export const Wrapper: React.FC<ChildrenProps> = ({ children }) => (
-    <div className="w-full px-4 pt-[16px] pb-[16px] md:pt-[24px] md:py-[16px]">{children}</div>
+    <div className="w-full px-4 pt-[16px] pb-[16px] md:pt-[24px] md:py-[16px] shadow-xl">{children}</div>
 )
 
 export const Hero: React.FC<ChildrenProps> = ({ children }) => (

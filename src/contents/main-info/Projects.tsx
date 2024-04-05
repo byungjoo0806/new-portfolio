@@ -42,7 +42,7 @@ const Projects = () => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            CRAYON - Create Your Own NFT {' '} (in progress) <br/>
+                            CRAYON - Create Your Own NFT {' '}<br/> (in progress) <br/>
                             {/* <a href="">
                                 <FaExternalLinkAlt />
                             </a> */}

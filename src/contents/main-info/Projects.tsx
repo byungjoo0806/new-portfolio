@@ -340,8 +340,7 @@ const Projects = () => {
                             alt="company collaboration project"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
-                            <li className="text-[16px]">Team Project (5 members) - </li>
-                            <li className="text-[16px]">collaboration  w/ Bounce;code</li>
+                            <li className="text-[14px]">Team Project (5 members)</li>
                             <li className="text-stone-500">2023. 11. 01 ~ 2023. 12. 05</li>
                             <li>frontend</li>
                             <li>blockchain</li>
@@ -411,7 +410,7 @@ const Projects = () => {
                             alt="company collaboration project"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
-                            <li className="text-[16px]">Team Project (3 members) - </li>
+                            <li className="text-[14px]">Team Project (3 members)</li>
                             <li className="text-stone-500">2023. 08. 03 ~ 2023. 08. 28</li>
                             <li>frontend</li>
                             <li>backend</li>
@@ -481,7 +480,7 @@ const Projects = () => {
                             alt="linkee"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-col items-center md:items-start">
-                            <li className="text-[16px]">Team Project (3 members) - </li>
+                            <li className="text-[14px]">Team Project (3 members)</li>
                             <li className="text-stone-500">2023. 06. 02 ~ 2023. 06. 26</li>
                             <li>frontend</li>
                             <li>backend</li>

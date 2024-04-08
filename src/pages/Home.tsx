@@ -11,8 +11,10 @@ const Home = (props: Props) => {
     <div className='w-full flex flex-col justify-center items-center'>
       <FallingBlocks />
       <Intro />
-      <Profile />
-      <MainInfo />
+      <div className='w-full h-screen flex flex-col items-center'>
+        <Profile />
+        <MainInfo />
+      </div>
     </div>
   )
 }

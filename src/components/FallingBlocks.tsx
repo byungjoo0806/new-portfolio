@@ -9,7 +9,6 @@ const containerStyle: React.CSSProperties = {
     width: '100%',
     height: '100%',
     zIndex: -1, // This sends the canvas to the back
-    backgroundColor: 'beige',
 };
 
 const FallingBlocks: React.FC = () => {
